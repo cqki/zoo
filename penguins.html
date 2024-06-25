@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZooScape</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+        body {
+            font-family: 'Varela Round', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #F6F1E9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            max-width: 900px; 
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .box:hover {
+            transform: scale(1.2);
+            transition: 0.3s ease;
+        }
+
+        .about {
+            padding: 4rem 0;
+        }
+
+        .container {
+            padding: 0 20px;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about-left {
+            width: 50%; 
+            overflow: hidden;
+        }
+
+        .about-left img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .about-right {
+            text-align: center; 
+            width: 50%; 
+            padding: 2rem; 
+        }
+
+        .title h2 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 600;
+            position: relative;
+            margin-top: 20px;
+            color: #9BCF53;
+        }
+
+        .lead {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #9BCF53;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 4px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #BFEA7C; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-left">
+                        <img src="images/animals_1.jpg" alt="">
+                    </div>
+                    <div class="about-right">
+                        <div class="title">
+                            <h2>Penguins</h2>
+                        </div>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illo et quasi delectus minus perferendis deserunt dolores consequatur eveniet earum cum asperiores aliquam, sapiente non sit officiis consequuntur corporis accusamus!</p>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat odio ad nam eligendi, vero iusto sapiente ipsum velit, eum quod voluptatum vel molestiae repellendus corporis, at facere ipsa omnis porro! ❄️🐾</p>
+                        <a href="index.html#gallery" class="button">gallery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

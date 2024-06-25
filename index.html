@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZooScape</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> zooScape</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#animal">animals</a>
+            <a href="#pricing">pricing</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+
+
+
+    </header>
+
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>A Wild Journey into Nature's Wonders</h3>
+            <a href="#animal" class="btn">meet our animals</a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">About Us & Our Animals</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Neque nemo odio odit dolores quasi quas at, voluptates cum eum iure. 
+                    Ab aliquid quos expedita velit tempore, hic odio tempora atque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Officiis libero veniam ad deleniti aliquid, 
+                    nam sed quas sunt assumenda facilis dolorem quos magnam voluptatem tenetur exercitationem quae quisquam tempora obcaecati?</p>
+                
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>education</h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-paw"></i>
+                        <h3>playing</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- gallery -->
+
+    <section id="gallery" class="">
+        <div class="container">
+            <div class="gallery">
+                <h2 class="heading">gallery</h2>
+    
+                <div class="gallery-grid grid">
+                    <div><img src="images/gallery_1.jpg"></div>
+                    <div><img src="images/gallery_2.jpg"></div>
+                    <div><img src="images/gallery_3.jpg"></div>
+                    <div><img src="images/gallery_4.jpg"></div>
+                    <div><img src="images/gallery_5.jpg"></div>
+
+                    <div><img src="images/gallery_6.jpg"></div>
+                    <div><img src="images/gallery_7.jpg"></div>
+                    <div><img src="images/gallery_8.jpg"></div>
+                    <div><img src="images/gallery_9.jpg"></div>
+                    <div><img src="images/gallery_10.jpg"></div>
+
+                    <div><img src="images/gallery_11.jpg"></div>
+                    <div><img src="images/gallery_12.jpg"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for enlarged image -->
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="enlargedImg">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <script src="/js/script.js"></script>
+    </section>
+    
+
+    <!-- end -->
+
+    <!-- animals -->
+
+    <section class="animal" id="animal">
+
+        <h2 class="heading">meet some of our animals</h2>
+    
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/animals_1.jpg" alt="">
+                <div class="content">
+                    <h3>penguins</h3>
+                    <a href="penguins.html" class="btn">learn more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/animals_2.jpg" alt="">
+                <div class="content">
+                    <h3>lions</h3>
+                    <a href="lions.html" class="btn">learn more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/animals_3.jpg" alt="">
+                <div class="content">
+                    <h3>bears</h3>
+                    <a href="bears.html" class="btn">learn more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/animals_4.jpg" alt="">
+                <div class="content">
+                    <h3>monkeys</h3>
+                    <a href="monkeys.html" class="btn">learn more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/animals_5.jpg" alt="">
+                <div class="content">
+                    <h3>Parrots</h3>
+                    <a href="parrots.html" class="btn">learn more</a>
+                </div>
+            </div>
+        
+        </div>
+        
+
+    
+    </section>
+
+    <!-- end -->
+
+    <!-- activites -->
+
+    <section class="activities">
+
+        <div class="row">
+            
+            <div class="content">
+                <h3>ride horses</h3>
+            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Saepe doloremque rem reiciendis beatae, ut tempora. Et dolorem enim, iusto autem eaque harum. <br>
+                Ex praesentium commodi sequi culpa eius fugit vel.</p></b> 
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- pricing -->
+
+    <section class="pricing" id="pricing">
+
+        <h2 class="heading">pricing</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/pricing1.jpg" alt="">
+                <h3>Daily Tickets</h3>
+                <h4>Adults:</h4><h4 class="price">$5</h4>
+                <h4>Children 7-14yr:</h4><h4 class="price">$3.50</h4>
+                <h4>Children 2-6yr:</h4><h4 class="price">$2</h4>
+                <br></br>
+                <p>Working: 8 AM - 5 PM</p>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing2.jpg" alt="">
+                <h3>Group Tickets</h3>
+                <h4>School Groups:</h4><h4 class="price">$3</h4>
+                <h4>Nursery School Groups:</h4><h4 class="price">$2</h4>
+                <h4>Education:</h4><h4 class="price">$1</h4>
+                <br></br>
+                <p>Working: 8 AM - 5 PM</p>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing3.jpg" alt="">
+                <h3>Annual Tickets</h3>
+                <h4>Adults:</h4><h4 class="price">$28</h4>
+                <h4>Children 7-14yr:</h4><h4 class="price">$16</h4>
+                <h4>Children 2-6yr:</h4><h4 class="price">$8</h4>
+                <br></br>
+                <p>Working: 8 AM - 5 PM</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 0000-000-0000</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> ZooScape.info@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> City, Country</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about" class="links"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i>gallery</a>
+                <a href="#animal" class="links"> <i class="fas fa-arrow-right"></i>animals</a>
+                <a href="#pricing" class="links"> <i class="fas fa-arrow-right"></i>pricing</a>
+            </div>
+
+
+        </div>
+
+        <div class="credit">&copy; 2024 Copyright</div>
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
